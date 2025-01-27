@@ -101,11 +101,12 @@ const Customers = () => {
                             </div>
                         </div>
                     </motion.div>
+
                 </motion.div>
 
                 <div className='flex flex-col items-center lg:items-start gap-[42px]'>
                     <motion.div 
-                        className='flex flex-col gap-[31px] w-[497px]'
+                        className='flex flex-col gap-[31px] lg:w-[497px]'
                         whileInView={{ opacity: 1 }}
                         initial={{ opacity: 0 }}
                         transition={{ duration: 1 }}
@@ -124,11 +125,13 @@ const Customers = () => {
                 </div>
             </div>
 
+
+
             <div className='xl:w-[1192px] flex lg:gap-[185px] gap-[100px] xl:flex-row flex-col items-center mt-[171px] relative '>
                 <div className='bg-radial-blue w-[420px] h-[420px] absolute top-[40px] right-[420px] -z-10' />
 
                 <motion.div 
-                    className='flex flex-col items-center lg:items-start gap-[42px] w-[453px]'
+                    className='flex flex-col items-center lg:items-start gap-[42px] lg:w-[453px]'
                     whileInView={{ opacity: 1 }}
                     initial={{ opacity: 0 }}
                     transition={{ duration: 1 }}
