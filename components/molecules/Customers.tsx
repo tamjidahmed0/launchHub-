@@ -119,7 +119,7 @@ const Customers = () => {
                         initial={{ opacity: 0 }}
                         transition={{ duration: 1 }}
                     >
-                        <Button btnText='Start 14 Days Free Trial' className='bg-buttonGradient w-[214px] h-[60px] rounded-[5px] font-inter font-bold' />
+                        <Button btnText='Start 14 Days Free Trial' className='bg-buttonGradient w-[214px] h-[60px] rounded-[5px] font-inter font-bold hover:bg-gradient-hover' />
                     </motion.div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ const Customers = () => {
                         <SubTitle text='AI-Writer is the most accurate content generation platform and writing tool that helps you transform your text into a completely personalized.' className='lg:text-[18px] leading-[28px] font-inter opacity-70' />
                     </div>
 
-                    <Button btnText='Start 14 Days Free Trial' className='bg-buttonGradient w-[214px] h-[60px] rounded-[5px] font-inter font-bold' />
+                    <Button btnText='Start 14 Days Free Trial' className='bg-buttonGradient w-[214px] h-[60px] rounded-[5px] font-inter font-bold hover:bg-gradient-hover' />
                 </motion.div>
 
                 <motion.div

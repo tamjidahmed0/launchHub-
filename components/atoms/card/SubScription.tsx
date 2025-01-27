@@ -26,7 +26,7 @@ const SubScription = ({
                         <li>1 Year Support</li>
                     </ul>
 
-                    <Button btnText='Get Started' className={`w-[249px] h-[55px] mt-[98px] font-inter font-bold rounded-lg border border-[#12141D] ${className}`} />
+                    <Button btnText='Get Started' className={`w-[249px] h-[55px] mt-[98px] font-inter font-bold rounded-lg border border-[#12141D] hover:bg-gradient-hover ${className}`} />
                 </div>
 
 
